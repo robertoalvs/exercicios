@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body{
+    background-color: #99CCFF;
+}
+h1{
+    font-size: 16px;
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+p{
+    text-align: justify;
+    text-decoration: blue;
+    color: crimson;
+}

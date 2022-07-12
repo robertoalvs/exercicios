@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+        body {
+
+            background-color: rgb(218, 209, 197);
+            margin: 10px;
+        }
+        header {
+
+            background-color: rgba(65, 83, 55, 0.371);
+            padding: 10px;
+            margin: 10px;
+        }
+        h1 {
+
+            font-family: 'Titan One', cursive;
+            font-size: 3em;
+            text-shadow: 1px 16px 12px black;
+            color: rgb(116, 36, 36);
+
+        }
+
+        main {
+
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article{
+
+            background-color: rgba(210, 131, 131, 0.533);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article > p {
+            text-align: justify;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+        }
+
+        nav {
+            box-shadow: 8px 9px 20px black;
+            /* box-shadow: -7px -17px 20px 2px black; */
+            background-color: lightgrey;
+            padding: 10px;
+            /* outline: 5px dashed blue; */
+            margin: 10px;
+        }
+
+        a {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            text-decoration: none;
+            text-shadow: 0px 4px 6px black;
+            padding: 10px;
+            margin: 20px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: yellow;
+            font-size: 2em;
+        }
+        aside {
+
+            background-color: lightslategrey;
+            padding: 1px;
+            margin: 0px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+        footer {
+
+            background-color: black;
+            padding: 2px;
+            margin: 10px;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Site RSA PC GAMER</h1>
+        <nav>
+            <a href="#">Menu01</a>
+            <a href="#">Menu02</a>
+            <a href="#">Menu03</a>
+            <a href="#">Menu04</a>
+        </nav>
+        <main>
+            <article>
+            <h2>Tudo Sobre Informática e Games</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto placeat quidem est nam tempora consequatur, alias accusamus itaque provident, error explicabo sequi delectus earum quam quibusdam optio aliquid deleniti?</p>
+            <aside>
+                Artigo escrito por RSA.
+            </aside>
+            </article>
+
+        </main>
+        <footer>
+            Desenvolvido por Roberto Alves
+        </footer>
+    </header>
+</body>
+</html>

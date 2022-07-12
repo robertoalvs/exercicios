@@ -1,0 +1,25 @@
+@charset "UTF-8"
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital@0;1&display=swap');
+*{
+/*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right, #7B44F2, #7D52D9, #573f8c,#f2f2f2ad,#0D0D0D);
+}
+main{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 20px 70px rgb(9, 9, 9);
+    padding: 30px;
+    margin: auto;
+    width: 900px;
+}
+h1{
+    font-size: 4em;
+    font-family: 'Rampart One', cursive;
+}
+p{
+    font-size: 2em;
+    font-family: 'Tiro Tamil', serif;
+}

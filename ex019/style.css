@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(255, 228, 196, 0.478);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+
+    background-color: rgba(0, 255, 255, 0.185);
+    text-align: center;
+}
+
+.nivel {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+
+}
+
+.basico {
+
+    color: blue;
+}
+.intermediario{
+    color: blueviolet;
+}
+
+.avancado{
+
+    color: rgb(17, 216, 6);
+    text-align: right;
+}
+
+.marcador{
+    background-color: yellow;
+}

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body{
+   
+}
+
+
+h1#principal{
+
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+
+}
+
+.basico{
+    color: blue;
+}
+.destaque{
+    background-color: yellow;
+}
+.intermediario{
+    color: red;
+    text-align: right;
+}
+.avancado{
+    color: chartreuse;
+}
